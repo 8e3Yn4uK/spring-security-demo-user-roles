@@ -17,13 +17,13 @@ public class DemoController {
     }
 
     @GetMapping("/leaders")
-    public String showLeaders(){
+    public String showLeaders() {
 
         return "leaders";
     }
 
     @GetMapping("/systems")
-    public String showSystems(){
+    public String showSystems() {
 
         return "systems";
     }
