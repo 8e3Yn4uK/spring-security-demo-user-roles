@@ -23,6 +23,18 @@
 </p>
 
 <hr>
+<!-- Add a link to point to leaders -->
+<p>
+    <a href="${pageContext.request.contextPath}/leaders">LeaderShip Meating</a>
+    (Only for manager peeps)
+</p>
+<hr>
+<p>
+    <a href="${pageContext.request.contextPath}/systems">Admin Meating</a>
+    (Only for admin peeps)
+</p>
+
+<hr>
 
 <form:form action="${pageContext.request.contextPath}/logout"
            method="post">
